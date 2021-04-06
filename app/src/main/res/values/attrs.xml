@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SliderView">
+        <attr name="indicatorRes" format="integer" />
+        <attr name="enableRolling" format="boolean" />
+        <attr name="flingAble" format="boolean" />
+        <attr name="smoothScroll" format="boolean" />
+        <attr name="rollingDelay" format="integer" />
+        <attr name="scrollingDelay" format="integer" />
+        <attr name="enableIndicator" format="boolean" />
+        <attr name="indicatorMargin" format="dimension" />
+        <attr name="bottomMargin" format="dimension" />
+        <attr name="topMargin" format="dimension" />
+        <attr name="enableLooping" format="boolean" />
+    </declare-styleable>
+
+    <dimen name="default_indicator_margin">5dp</dimen>
+    <dimen name="default_bottom_margin">0dp</dimen>
+    <dimen name="default_top_margin">0dp</dimen>
+</resources>
