@@ -14,7 +14,6 @@ data class YourItem(val image:Int, val url: String)
         YourItem(R.drawable.banner_img_01, "http://google.com"),
         YourItem(R.drawable.banner_img_02, "http://google.com")
      )
-
     val adapter = PayssamAdBannerAdapter(activity!!, listItem)
     banner.setAdapter(adapter)
 </code>
