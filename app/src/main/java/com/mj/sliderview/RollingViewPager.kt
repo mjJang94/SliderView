@@ -9,17 +9,11 @@ import android.view.animation.DecelerateInterpolator
 import android.widget.Scroller
 import androidx.viewpager.widget.ViewPager
 
-/**
- * RollingBanner
- * class: RollingViewPager
- * Created by pyxis on 2017. 10. 9..
- */
 class RollingViewPager constructor(context: Context, attrs: AttributeSet? = null) :
     ViewPager(context, attrs) {
 
     private val ACTION_UP = 1
     private val ACTION_MOVE = 2
-
 
     private var flingAble = true
     private var smoothScroll = true
